@@ -8,11 +8,15 @@
 
 **Summary:** How did you deploy it? Did you use GCP, AWS, Azure, Vagrant, VirtualBox, etc.?
 
+I used GCP to deploy it.
+
 <img src="Capture1.PNG">
 
 ### Dionaea Honeypot Deployment (Required)
 
 **Summary:** Briefly in your own words, what does dionaea do?
+
+The dionaea established the server of the honeypot and implemented the configurations.
 
 <img src="Capture2.JPG">
 
@@ -20,19 +24,19 @@
 
 **Summary:** What is the RDBMS that MHN-Admin uses? What information does the exported JSON file record?
 
-*Be sure to upload session.json directly to this GitHub repo/branch in order to get full credit.*
+Regarding the exported JSON file, MHN-Admin provides the functionality to export data related to honeypot events and activities in JSON format. The exported JSON file typically includes information such as:
 
-### Deploying Additional Honeypot(s) (Optional)
+Sensor Data: Details about the honeypots deployed, including their sensor ID, IP address, location, and other relevant information.
 
-#### X Honeypot
+Attack Data: Recorded information about the attacks detected by the honeypots. This may include the source IP address, attack type, timestamp, payload details, and other relevant data.
 
-**Summary:** What does this honeypot simulate and do for a security researcher?
+Session Data: Information about the sessions established with the honeypots, such as the source and destination IP addresses, protocols used, timestamps, and session-specific details.
+
+Malware Samples: If configured, the exported JSON file may include information about any malware samples collected by the honeypots, such as file names, hashes, and associated metadata.
+
 
 <img src="Capture3.JPG">
 
-### Malware Capture and Identification (Optional)
-
-#### X Malware
 
 **Summary:** How did you find it? Which honeypot captured it? What does each malware do?
 
