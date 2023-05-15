@@ -11,6 +11,7 @@
 I used GCP to deploy it.
 
 <img src="Capture1.PNG">
+<img src="Capture2.JPG">
 
 ### Dionaea Honeypot Deployment (Required)
 
@@ -18,7 +19,7 @@ I used GCP to deploy it.
 
 The dionaea established the server of the honeypot and implemented the configurations.
 
-<img src="Capture2.JPG">
+<img src="Capture3.JPG">
 
 ### Database Backup (Required) 
 
@@ -33,10 +34,6 @@ Attack Data: Recorded information about the attacks detected by the honeypots. T
 Session Data: Information about the sessions established with the honeypots, such as the source and destination IP addresses, protocols used, timestamps, and session-specific details.
 
 Malware Samples: If configured, the exported JSON file may include information about any malware samples collected by the honeypots, such as file names, hashes, and associated metadata.
-
-
-<img src="Capture3.JPG">
-
 
 **Summary:** How did you find it? Which honeypot captured it? What does each malware do?
 
