@@ -8,13 +8,13 @@
 
 **Summary:** How did you deploy it? Did you use GCP, AWS, Azure, Vagrant, VirtualBox, etc.?
 
-<img src="Capture1.png">
+<img src="Capture1.PNG">
 
 ### Dionaea Honeypot Deployment (Required)
 
 **Summary:** Briefly in your own words, what does dionaea do?
 
-<img src="Capture1.jpg">
+<img src="Capture2.JPG">
 
 ### Database Backup (Required) 
 
@@ -28,7 +28,7 @@
 
 **Summary:** What does this honeypot simulate and do for a security researcher?
 
-<img src="x-honeypot.gif">
+<img src="Capture3.JPG">
 
 ### Malware Capture and Identification (Optional)
 
@@ -40,7 +40,7 @@ MD5 Hash: *Run `md5sum` on the file and record the hash here.*
 
 SHA1 Hash: *Run `sha1sum` on the file and record the hash here.*
 
-<img src="x-malware.gif">
+<img src="Capture4.JPG">
 
 ## Notes
 
